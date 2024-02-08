@@ -36,8 +36,8 @@ export default function Home() {
         </div>
         <div className="items-center justify-between font-mono text-sm lg:flex">
           <p className="flex justify-center rounded-xl border border-gray-300 bg-gray-200 p-4">
-            mints until next{' '}
-            <span className="text-red-500">&nbsp;RED&nbsp;</span> box:{' '}
+            Until next
+            <span className="text-red-500">&nbsp;RED</span>:&nbsp;
             {boxes.findIndex((box) => box.color === 'Red') + 1}
           </p>
         </div>
